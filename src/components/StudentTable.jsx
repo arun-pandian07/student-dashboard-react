@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 function StudentTable({ data }) {
-  const students = data.slice(0, 5);
+  const students = data.slice(0, 30);
 
   return (
     <Box 
